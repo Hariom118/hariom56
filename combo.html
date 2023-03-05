@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("p").hide();
+  });
+  });
+  $(document).ready(function(){
+  $("#show").dblclick(function(){
+    $("h2").show();
+  });
+  });
+  $(document).ready(function(){
+  $("h3").dblclick(function(){
+    $("this").show();
+  });
+  });
+
+</script>
+</head>
+<body>
+<p>Hello</p>
+<h2 id="show">hello2</h2>
+<h3>hello</h3>
+<button id="hide">Hide</button>
+
+</body>
+</html>
